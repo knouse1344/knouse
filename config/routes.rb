@@ -1,7 +1,6 @@
 KnouSe::Application.routes.draw do
-  get "main/home"
 
-  root to: "main/home"
+  root to: "main#ndex"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
