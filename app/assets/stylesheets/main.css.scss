@@ -2,9 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#bg {
-	background: url("app/assets/images/bg.png") ;
-	height: 200px;
-	width: 200px;
-	border: 1px solid #000;
+.title {
+	font-size: 48px;
+	font-family: Times serif;
+	color: #FFF;
+	margin-left: 50px;
 }
