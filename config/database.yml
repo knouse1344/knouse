@@ -7,7 +7,8 @@ development:
   adapter: postgresql
   database: knouse_dev
   pool: 5
-
+  username: bryan
+  password:
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -16,10 +17,14 @@ test:
   adapter: postgresql
   database: knouse_test
   pool: 5
+  username: bryan
+  password:
 
 
 production:
   adapter: postgresql
   database: knouse_production
   pool: 5
+  username: bryan
+  password:
 
