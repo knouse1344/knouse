@@ -20,29 +20,25 @@
 	}
 
 	#nav {
+		height: 205px;
+		border-top: 2px solid #555;
+		border-bottom: 2px solid #555;
 	
 		.kwicks {
 			height: 175px;
 			float: left;
-			margin-top: 20px;
+			margin-top: 15px;
+			margin-bottom: 15px;
 		}
 		.kwicks > li {
 			height: 175px;
-			/* overridden by kwicks but good for when JavaScript is disabled */
-			margin-top: 5px;
 			cursor: pointer;
 		}
-
-		#panel-1 { background: url("/assets/ur_logo.png"); }
-		#panel-2 { background: url("/assets/ur_soccer.png"); }
-		#panel-3 { background: url("/assets/sotb_logo.png"); }
-		#panel-4 { background: url("/assets/rapgenius_logo.png"); }
-		#panel-5 { background: url("/assets/nest_logo.png"); }
 	}
 
 	#feature {
-		margin-top: 215px;
-		
+		margin-top: 15px;
+
 		img {
 			width: 895px;
 		}

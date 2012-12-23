@@ -1,6 +1,8 @@
 KnouSe::Application.routes.draw do
 
-  root to: "main#index"
+  root to: "main#rapgenius"
+  get 'main/rapgenius'
+  get "main/rochester"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

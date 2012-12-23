@@ -1,4 +1,7 @@
 class MainController < ApplicationController
-  def home
+  def rapgenius
+  end
+
+  def rochester
   end
 end
