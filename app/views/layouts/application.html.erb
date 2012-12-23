@@ -7,6 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	
+	<script type='text/javascript'>
+		$(function() {
+			$('.kwicks').kwicks({
+				size: 100,
+				maxSize : 220,
+				spacing : 5,
+				behavior: 'menu',
+				isVertical: true
+			});
+		});
+	</script>
 
 <%= yield %>
 

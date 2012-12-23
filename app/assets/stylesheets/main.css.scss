@@ -4,37 +4,54 @@
 
 #main {
 	margin-top: 25px;
-}
 
-.title {
-	font-size: 36px;
-	font-family: Times serif;
-	color: #FFF;
-	margin-left: 50px;
-}
-
-ul {
-	color: #fff;
-	font-size: 16px;
-	width: 150px;
-	height: 500px;
-	margin-left: 10px;
-	margin-top: 25px;
-	border-right: 1px solid #666;
-
-	li {
-		margin-top: 15px;
-		list-style-type: none;
+	.title {
+		font-size: 36px;
+		font-family: Times serif;
+		color: #FFF;
+		margin-left: 50px;
 	}
 
-	li:hover {
-		color: #777;
-		cursor: pointer;
+	.motto {
+		color: #fff;
+		font-size: 24px;
+		margin-left: 25%;
+	}
+
+	#middle {
+		.kwicks {
+			font-size: 16px;
+			float: left;
+			margin-left: 10px;
+			margin-top: 20px;
+			width: 125px;
+			height: 515px;
+		}
+		.kwicks > li {
+			width: 175px;
+			height: 100px;
+			/* overridden by kwicks but good for when JavaScript is disabled */
+			margin-top: 5px;
+			cursor: pointer;
+		}
+
+		#panel-1 { background: url("/assets/rails.png"); }
+		#panel-2 { background: url("/assets/rails.png"); }
+		#panel-3 { background: url("/assets/rails.png"); }
+		#panel-4 { background: url("/assets/rails.png"); }
+		#panel-5 { background: url("/assets/rails.png"); }
+
+		.content {
+			width: 500px;
+			height: 500px;
+			float: left;
+			margin-left: 50px;
+			margin-top: 25px;
+			background: #cacaca;
+			border: 1px solid #fff;
+
+		}
 	}
 }
 
-.motto {
-	color: #fff;
-	font-size: 24px;
-	margin-left: 25%;
-}
+
