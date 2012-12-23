@@ -4,52 +4,47 @@
 
 #main {
 	margin-top: 25px;
+	width: 895px;
+	margin-left: auto;
+	margin-right: auto;
 
-	.title {
-		font-size: 36px;
-		font-family: Times serif;
-		color: #FFF;
-		margin-left: 50px;
-	}
-
-	.motto {
+	.title { 
+		font-size: 48px;
 		color: #fff;
-		font-size: 24px;
-		margin-left: 25%;
 	}
 
-	#middle {
+	.desc {
+		font-size: 28px;
+		color: #fff;
+		margin-left: 500px;
+	}
+
+	#nav {
+	
 		.kwicks {
-			font-size: 16px;
+			height: 175px;
 			float: left;
-			margin-left: 10px;
 			margin-top: 20px;
-			width: 125px;
-			height: 515px;
 		}
 		.kwicks > li {
-			width: 175px;
-			height: 100px;
+			height: 175px;
 			/* overridden by kwicks but good for when JavaScript is disabled */
 			margin-top: 5px;
 			cursor: pointer;
 		}
 
-		#panel-1 { background: url("/assets/rails.png"); }
-		#panel-2 { background: url("/assets/rails.png"); }
-		#panel-3 { background: url("/assets/rails.png"); }
-		#panel-4 { background: url("/assets/rails.png"); }
-		#panel-5 { background: url("/assets/rails.png"); }
+		#panel-1 { background: url("/assets/ur_logo.png"); }
+		#panel-2 { background: url("/assets/ur_soccer.png"); }
+		#panel-3 { background: url("/assets/sotb_logo.png"); }
+		#panel-4 { background: url("/assets/rapgenius_logo.png"); }
+		#panel-5 { background: url("/assets/nest_logo.png"); }
+	}
 
-		.content {
-			width: 500px;
-			height: 500px;
-			float: left;
-			margin-left: 50px;
-			margin-top: 25px;
-			background: #cacaca;
-			border: 1px solid #fff;
-
+	#feature {
+		margin-top: 215px;
+		
+		img {
+			width: 895px;
 		}
 	}
 }

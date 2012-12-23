@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Bryan Knouse</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-	
-	<script type='text/javascript'>
-		$(function() {
-			$('.kwicks').kwicks({
-				size: 100,
-				maxSize : 220,
-				spacing : 5,
-				behavior: 'menu',
-				isVertical: true
+	<head>
+	  <title>Bryan Knouse</title>
+	  <%= stylesheet_link_tag    "application", :media => "all" %>
+	  <%= javascript_include_tag "application" %>
+	  <%= csrf_meta_tags %>
+	</head>
+	<body>
+		
+		<script type='text/javascript'>
+			$(function() {
+				$('.kwicks').kwicks({
+					size: 175,
+					maxSize : 350,
+					spacing : 5,
+					behavior: 'menu'
+				});
 			});
-		});
-	</script>
+		</script>
 
-<%= yield %>
+		<div id="main">
+			
+			<span class="title"> BRYAN KNOUSE</span> 
+			<span class="desc">  </span>
+		
+			<div id="nav">
+				<ul class='kwicks kwicks-vertical'>
+					<li id='panel-1'> </li>
+					<li id='panel-2'> </li>
+					<li id='panel-3'> </li>
+					<li id='panel-4'> </li>
+					<li id='panel-5'> </li>
+				</ul>
+			</div>
 
-</body>
+			<%= yield %>
+
+		</div>
+
+	</body>
 </html>
