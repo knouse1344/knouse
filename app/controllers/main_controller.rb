@@ -4,4 +4,13 @@ class MainController < ApplicationController
 
   def rochester
   end
+
+  def sotb
+  end
+
+  def ur_soccer
+  end
+
+  def nest
+  end
 end

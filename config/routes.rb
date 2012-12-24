@@ -1,8 +1,15 @@
 KnouSe::Application.routes.draw do
 
-  root to: "main#rapgenius"
+  root to: "main#rochester"
+
+
   get 'main/rapgenius'
-  get "main/rochester"
+  get 'main/rochester'
+  get 'main/sotb'
+  get 'main/ur_soccer'
+  get 'main/nest'
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
