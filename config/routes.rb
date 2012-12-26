@@ -1,6 +1,6 @@
 KnouSe::Application.routes.draw do
 
-  root to: "main#rochester"
+  root to: "main#home"
 
 
   get 'main/rapgenius'
