@@ -28,6 +28,7 @@
 		}
 
 		.box {
+			position: relative;
 			float: left;
 			margin-top: 4px;
 			margin-bottom: 4px;
@@ -35,11 +36,44 @@
 			margin-right: 4px;
 			height: 142px;
 			width: 142px;	
-			background: url("box_bg.png");
+			background: url("box_bg.png");	
+			overflow: hidden;
 		}
 
 		.wide {
 			width: 292px;
+		}
+
+		.details{
+			font-family: 'helvetica', sans-serif;
+			font-weight: bold;
+			text-decoration: none;
+			text-align: left;
+			color: #fff;
+			background: #000;
+			width: 122px;
+			padding: 10px;
+			min-height: 122px;
+			opacity: .9;
+			position:absolute;
+			bottom:0px;
+			left:0px;
+			margin-left:-142px;
+		}
+
+		.det_wide {
+			width: 272px;
+			margin-left: -292px;
+		}
+
+		.box:hover {
+			
+			.details{
+				margin-left:0;
+				-webkit-transition: margin-left;
+				-webkit-transition-timing-function: ease-in;
+				-webkit-transition-duration: 250ms;
+			}
 		}
 	}
 
