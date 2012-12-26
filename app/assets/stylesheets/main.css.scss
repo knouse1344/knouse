@@ -29,13 +29,17 @@
 
 		.box {
 			float: left;
-			width: 142px;
-			height: 142px;
 			margin-top: 4px;
 			margin-bottom: 4px;
 			margin-left: 4px;
 			margin-right: 4px;
-			background: #333;
+			height: 142px;
+			width: 142px;	
+			background: url("box_bg.png");
+		}
+
+		.wide {
+			width: 292px;
 		}
 	}
 
@@ -66,7 +70,7 @@
 		margin-top: 15px;
 
 		img {
-			width: 895px;
+			width: 908px;
 		}
 	}
 }
