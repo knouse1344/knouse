@@ -2,7 +2,7 @@ KnouSe::Application.routes.draw do
 
   root to: "main#home"
 
-
+  get 'main/home'
   get 'main/rapgenius'
   get 'main/rochester'
   get 'main/sotb'

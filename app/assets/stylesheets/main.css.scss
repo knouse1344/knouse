@@ -9,6 +9,15 @@
 	width: 908px;
 	background: #111;
 
+	.title {
+		position: absolute;
+		color: #fff;
+		top: 3px;
+		margin-left: -200px;
+		font-family: 'Cinzel Decorative';
+		font-size: 24px;
+		text-decoration: none;
+	}
 	#navi {
 		height: 450px;
 		width: 900px;
@@ -85,10 +94,13 @@
 
 	#info_bar {
 		height: 205px;
-		border-top: 2px solid #666;
-		border-bottom: 2px solid #666;
 
 		.basic_info {
+
+			img {
+				width: 892px;
+				margin-left: 8px;
+			}
 
 			p {
 				margin-left: 10px;
