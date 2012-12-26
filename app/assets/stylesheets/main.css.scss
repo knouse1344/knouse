@@ -3,13 +3,40 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #main {
-	margin-top: 25px;
-	width: 895px;
+	margin-top: -8px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 908px;
+	background: #111;
 
-	.title { 
-		height: 35px;
+	#navi {
+		height: 450px;
+		width: 900px;
+		padding: 4px;
+		background: #111;
+
+		#row_1 {
+
+		}
+
+		#row_2 {
+
+		}
+
+		#row_3 {
+
+		}
+
+		.box {
+			float: left;
+			width: 142px;
+			height: 142px;
+			margin-top: 4px;
+			margin-bottom: 4px;
+			margin-left: 4px;
+			margin-right: 4px;
+			background: #333;
+		}
 	}
 
 	.desc {
@@ -20,8 +47,8 @@
 
 	#nav {
 		height: 205px;
-		border-top: 2px solid #555;
-		border-bottom: 2px solid #555;
+		border-top: 2px solid #888;
+		border-bottom: 2px solid #888;
 	
 		.kwicks {
 			height: 175px;
