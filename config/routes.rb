@@ -6,7 +6,7 @@ KnouSe::Application.routes.draw do
   get 'main/rapgenius'
   get 'main/rochester'
   get 'main/sotb'
-  get 'main/ur_soccer'
+  get 'main/bluefields'
   get 'main/nest'
 
 
