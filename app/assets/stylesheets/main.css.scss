@@ -51,8 +51,6 @@
 		}
 
 		.empty_box {
-			-webkit-opacity: 0.25;
-			-moz-opacity: 0.25;
 			opacity: 0.25;
 			-webkit-transition: all .4s ease;
 			-moz-transition: all .4s ease;
@@ -62,8 +60,6 @@
 		}
 
 		.empty_box:hover {
-			-webkit-opacity: .75;
-			-moz-opacity: .75;
 			opacity: .75;
 		}
 
@@ -81,11 +77,15 @@
 			width: 122px;
 			padding: 10px;
 			min-height: 122px;
-			opacity: .9;
 			position:absolute;
 			bottom:0px;
-			left:0px;
-			margin-left:-142px;
+			left:0px;		
+			opacity: 0;				
+			-webkit-transition: all .4s ease;
+			-moz-transition: all .4s ease;
+			-ms-transition: all .4s ease;
+			-o-transition: all .4s ease;
+			transition: all .4s ease;
 		}
 
 		.det_wide {
@@ -96,10 +96,7 @@
 		.box:hover {
 			
 			.details{
-				margin-left:0;
-				-webkit-transition: margin-left;
-				-webkit-transition-timing-function: ease-in;
-				-webkit-transition-duration: 250ms;
+				opacity: .9;
 			}
 		}
 	}
