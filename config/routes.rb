@@ -9,6 +9,7 @@ KnouSe::Application.routes.draw do
   get 'main/bluefields'
   get 'main/nest'
   get 'main/parkland'
+  get 'main/sa244'
 
 
 

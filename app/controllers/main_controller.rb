@@ -13,4 +13,7 @@ class MainController < ApplicationController
 
   def nest
   end
+
+  def sa244
+  end
 end
