@@ -14,23 +14,26 @@
 		position: absolute;
 		top: 3px;
 		margin-left: -200px;
-		font-family: 'Cinzel Decorative';
 		text-align: right;
 
 		.title {
+			font-family: 'Cinzel Decorative';
 			font-size: 24px;
 			text-decoration: none;
 			color: #fff;
 		}
 
 		.links {
+			font-family: 'Arial', sans-serif;
+			font-style: italic;
 			font-size: 14px;
-			color: #fff;
+			color: #cacaca;
 			text-decoration: none;
+			margin-right: 3px;	
 		}
 	}
 	#navi {
-		height: 600px;
+		height: 516px;
 		padding: 4px;
 		background: #151515;
 
