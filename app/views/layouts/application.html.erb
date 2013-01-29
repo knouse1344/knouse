@@ -37,58 +37,78 @@
 
 		<div id="main">
 
-			<a class="title" href="/main/home"> Bryan Knouse </a>
+			<div class="sidebar"> 
+				<a class="title" href="/main/home">Bryan Knouse </a></br>
+				<a class="links" href="#"> Link 1 </a></br>
+				<a class="links" href="#"> Link 2 </a></br>
+				<a class="links" href="#"> Link 3 </a></br>
+			</div>
 
 			<div id="navi">
 
 				<div id="row_1">
 					<div class="box"> 
 						<%= link_to(image_tag("phs_box_logo.png"), "/main/parkland") %> 
-						<%= link_to "Parkland High School", "/main/parkland", :class => "details" %> 
+						<a href="/main/parkland" class="details"> 
+							<div class="info">
+								<h1> Parkland High School </h1>
+								<p> Allentown, Pennsylvania </p> 
+							</div>
+						</a> 
 					</div>
 					<div class="box"> 
 						<%= link_to(image_tag("ur_box_logo.png"), "/main/rochester") %> 
-						<%= link_to "University of Rochester", "/main/rochester", :class => "details" %> 
+						<a href="/main/rochester" class="details"> 
+							<div class="info">
+								<h1> University of Rochester </h1>
+								<p> Rochester, New York </p> 
+							</div>
+						</a> 						
 					</div>
 					<div class="box"> 
 						<%= link_to(image_tag("BF_box_logo.png"), "/main/bluefields") %> 
-						<%= link_to "Bluefields.com Design", "/main/bluefields", :class => "details" %> 
+						<a href="/main/bluefields" class="details"> 
+							<div class="info">
+								<h1> Bluefields </h1>
+								<p> Marketing and Design </p> 
+							</div>
+						</a> 				
 					</div>
 					<div class="box"> 
 						<%= link_to(image_tag("rapgenius_box_logo.png"), "/main/rapgenius") %> 
-						<%= link_to "Rapgenius Design Review", "/main/rapgenius", :class => "details" %> 
-					</div>
-					<div class="box"> 
-						<%= link_to(image_tag("sotb_box_logo.png"), "/main/sotb") %>
-						<%= link_to "Sports On The Brain", "/main/sotb", :class => "details" %> 
-					</div>
-					<div class="box"> 
-						<%= link_to(image_tag("sa244_box_logo.png"), "/main/sa244") %>
-						<%= link_to "SA244: Digital Photography", "/main/sa244", :class => "details" %> 
+						<a href="/main/rapgenius" class="details"> 
+							<div class="info">
+								<h1> Rapgenius </h1>
+								<p> Design Review </p> 
+							</div>
+						</a> 
 					</div>
 				</div>
 
 				<div id="row_2">
+					<div class="box"> 
+						<%= link_to(image_tag("sotb_box_logo.png"), "/main/sotb") %>
+						<a href="/main/sotb" class="details"> 
+							<div class="info">
+								<h1> Sports On The Brain </h1>
+								<p> Bluefields Blog Redesign </p> 
+							</div>
+						</a> 						
+					</div>
+					<div class="box"> 
+						<%= link_to(image_tag("sa244_box_logo.png"), "/main/sa244") %>
+						<a href="/main/sa244" class="details"> 
+							<div class="info">
+								<h1> SA 244 </h1>
+								<p> Studio Arts </p> 
+							</div>
+						</a> 
+					</div>
 					<div class="box empty_box"> </div>
-					<div class="box empty_box"> </div>
-					<div class="box empty_box"> </div>
-					<div class="box empty_box"> </div>
-					<div class="box empty_box"> </div>
-					<div class="box empty_box"> </div>					
-				</div>
-
-				<div class="row_3">
-					<div class="box empty_box"> </div>
-					<div class="box empty_box"> </div>
-					<div class="box empty_box"> </div>
-					<div class="box empty_box"> </div>
-					<div class="box empty_box"> </div>
-					<div class="box empty_box"> </div>
+					<div class="box empty_box"> </div>			
 				</div>
 
 			</div>
-
-			<span class="desc">  </span>
 
 			<%= yield %>
 

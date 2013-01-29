@@ -7,21 +7,30 @@
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 8px;
-	width: 908px;
+	width: 1040px;
 	background: #151515;
 
-	.title {
+	.sidebar {
 		position: absolute;
-		color: #fff;
 		top: 3px;
 		margin-left: -200px;
 		font-family: 'Cinzel Decorative';
-		font-size: 24px;
-		text-decoration: none;
+		text-align: right;
+
+		.title {
+			font-size: 24px;
+			text-decoration: none;
+			color: #fff;
+		}
+
+		.links {
+			font-size: 14px;
+			color: #fff;
+			text-decoration: none;
+		}
 	}
 	#navi {
-		height: 450px;
-		width: 900px;
+		height: 600px;
 		padding: 4px;
 		background: #151515;
 
@@ -30,7 +39,7 @@
 		}
 
 		#row_2 {
-
+			margin-bottom: 10px;
 		}
 
 		#row_3 {
@@ -44,8 +53,8 @@
 			margin-bottom: 4px;
 			margin-left: 4px;
 			margin-right: 4px;
-			height: 142px;
-			width: 142px;	
+			height: 250px;
+			width: 250px;	
 			background: url("box_bg.png");	
 			overflow: hidden;
 		}
@@ -67,25 +76,44 @@
 			width: 292px;
 		}
 
-		.details{
+		.details {
 			font-family: 'helvetica', sans-serif;
 			font-weight: bold;
 			text-decoration: none;
-			text-align: left;
+			text-align: center;
 			color: #fff;
 			background: #000;
-			width: 122px;
+			width: 230px;
 			padding: 10px;
-			min-height: 122px;
-			position:absolute;
-			bottom:0px;
-			left:0px;		
-			opacity: 0;				
+			height: 230px;	
+			position: absolute;
+			bottom: 0;
+			left: 0;	
+			opacity: 0;		
+			display: table;		
 			-webkit-transition: all .4s ease;
 			-moz-transition: all .4s ease;
 			-ms-transition: all .4s ease;
 			-o-transition: all .4s ease;
 			transition: all .4s ease;
+
+			.info {
+				height: 230px;
+				display: table-cell;
+				vertical-align: middle;
+			
+				h1 {
+					text-transform: uppercase;
+					font-family: 'Arial Black', sans-serif;
+					font-size: 30px;
+					font-weight: 900;
+					margin-bottom: -15px;
+				}
+
+				p {
+					color: #EBD42A;
+				}
+			}
 		}
 
 		.det_wide {
@@ -101,18 +129,12 @@
 		}
 	}
 
-	.desc {
-		font-size: 28px;
-		color: #fff;
-		margin-left: 500px;
-	}
-
 	#footer {
 		position: relative;
 		background: #111111;
 		margin-left: 8px;
 		bottom: 0px;
-		width: 892px;
+		width: 1024px;
 		height: 50px;
 
 		p {
