@@ -16,4 +16,7 @@ class MainController < ApplicationController
 
   def sa244
   end
+
+  def baja
+  end
 end
