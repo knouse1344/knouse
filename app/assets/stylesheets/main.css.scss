@@ -31,6 +31,10 @@
 			text-decoration: none;
 			margin-right: 3px;	
 		}
+
+		.links:hover {
+			color: #999;
+		}
 	}
 	#navi {
 		height: 516px;
@@ -64,7 +68,6 @@
 
 		.box:hover {
 			img {
-				opacity: .5;
 			}
 		}
 
@@ -142,15 +145,12 @@
 		position: relative;
 		background: #111111;
 		margin-left: 8px;
+		padding-top: 15px;
 		bottom: 0px;
 		width: 1024px;
-		height: 50px;
-
-		p {
-			color: #fff;
-			margin-top: 15px;
-			text-align: center;
-		}
+		height: 30px;
+		color: #444;
+		text-align: center;
 	}
 }
 
