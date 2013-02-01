@@ -10,11 +10,12 @@
 	width: 1040px;
 	background: #151515;
 
-	.sidebar {
+	.intro {
 		position: absolute;
 		top: 3px;
-		margin-left: -200px;
+		margin-left: -205px;
 		text-align: right;
+		width: 200px;
 
 		.title {
 			font-family: 'Cinzel Decorative';
@@ -23,18 +24,23 @@
 			color: #fff;
 		}
 
-		.links {
-			font-family: 'Arial', sans-serif;
-			font-style: italic;
-			font-size: 14px;
-			color: #cacaca;
-			text-decoration: none;
-			margin-right: 3px;	
+		.linkgrp {
+			display: inline;
+
+			.links {
+				font-family: 'Arial', sans-serif;
+				font-style: italic;
+				font-size: 14px;
+				color: #cacaca;
+				text-decoration: none;
+				margin-right: 8px;	
+			}
+
+			.links:hover {
+				color: #999;
+			}
 		}
 
-		.links:hover {
-			color: #999;
-		}
 	}
 	#navi {
 		height: 516px;
@@ -66,13 +72,8 @@
 			overflow: hidden;
 		}
 
-		.box:hover {
-			img {
-			}
-		}
-
 		.empty_box {
-			opacity: 0.25;
+			opacity: 0;
 			-webkit-transition: all .4s ease;
 			-moz-transition: all .4s ease;
 			-ms-transition: all .4s ease;
