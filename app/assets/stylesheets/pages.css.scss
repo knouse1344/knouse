@@ -35,9 +35,26 @@
 #feature {
 	margin-top: 8px;
 	margin-left: 8px;
+}
 
-	img {
-		width: 1024px;
+#UR_feature {
+	background: url("/assets/UR_resume_stuff.jpg") no-repeat;
+	margin-left: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background-size: 100%;
+	width: 1024px;
+	height: 1600px;
+
+	.download_me {
+		position: relative;
+		margin-left: 320px;
+		top: 310px;
+	}
+
+	.download_tai{
+		position: relative;
+		margin-left: 420px;
 	}
 }
 
