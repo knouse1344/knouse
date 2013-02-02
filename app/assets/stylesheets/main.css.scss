@@ -6,14 +6,11 @@
 	margin-top: -8px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 8px;
-	width: 1040px;
-	background: #151515;
-
+	width: 1240px;
+	
 	.intro {
 		position: absolute;
 		top: 3px;
-		margin-left: -205px;
 		text-align: right;
 		width: 200px;
 
@@ -40,118 +37,124 @@
 				color: #999;
 			}
 		}
-
 	}
-	#navi {
-		height: 516px;
-		padding: 4px;
+
+	#content {
+		margin-left: 200px;
 		background: #151515;
+		padding-bottom: 8px;
 
-		#row_1 {
+		#navi {
+			height: 516px;
+			padding: 4px;
+			background: #151515;
 
+			#row_1 {
+
+			}
+
+			#row_2 {
+				margin-bottom: 10px;
+			}
+
+			#row_3 {
+
+			}
+
+			.box {
+				position: relative;
+				float: left;
+				margin-top: 4px;
+				margin-bottom: 4px;
+				margin-left: 4px;
+				margin-right: 4px;
+				height: 250px;
+				width: 250px;	
+				background: url("box_bg.png");	
+				overflow: hidden;
+			}
+
+			.empty_box {
+				opacity: 0;
+				-webkit-transition: all .4s ease;
+				-moz-transition: all .4s ease;
+				-ms-transition: all .4s ease;
+				-o-transition: all .4s ease;
+				transition: all .4s ease;
+			}
+
+			.empty_box:hover {
+				opacity: .75;
+			}
+
+			.wide {
+				width: 292px;
+			}
+
+			.details {
+				font-family: 'helvetica', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				text-align: center;
+				color: #fff;
+				background: url("/assets/overlay.png");
+				width: 230px;
+				padding: 10px;
+				height: 230px;	
+				position: absolute;
+				bottom: 0;
+				left: 0;	
+				opacity: 0;		
+				display: table;		
+				-webkit-transition: all .4s ease;
+				-moz-transition: all .4s ease;
+				-ms-transition: all .4s ease;
+				-o-transition: all .4s ease;
+				transition: all .4s ease;
+
+				.info {
+					height: 230px;
+					display: table-cell;
+					vertical-align: middle;
+				
+					h1 {
+						text-transform: uppercase;
+						font-family: 'Arial Black', sans-serif;
+						font-size: 30px;
+						font-weight: 900;
+						margin-bottom: -15px;
+					}
+
+					p {
+						color: #EBD42A;
+					}
+				}
+			}
+
+			.det_wide {
+				width: 272px;
+				margin-left: -292px;
+			}
+
+			.box:hover {
+				
+				.details{
+					opacity: .9;
+				}
+			}
 		}
 
-		#row_2 {
-			margin-bottom: 10px;
-		}
-
-		#row_3 {
-
-		}
-
-		.box {
+		#footer {
 			position: relative;
-			float: left;
-			margin-top: 4px;
-			margin-bottom: 4px;
-			margin-left: 4px;
-			margin-right: 4px;
-			height: 250px;
-			width: 250px;	
-			background: url("box_bg.png");	
-			overflow: hidden;
-		}
-
-		.empty_box {
-			opacity: 0;
-			-webkit-transition: all .4s ease;
-			-moz-transition: all .4s ease;
-			-ms-transition: all .4s ease;
-			-o-transition: all .4s ease;
-			transition: all .4s ease;
-		}
-
-		.empty_box:hover {
-			opacity: .75;
-		}
-
-		.wide {
-			width: 292px;
-		}
-
-		.details {
-			font-family: 'helvetica', sans-serif;
-			font-weight: bold;
-			text-decoration: none;
+			background: #111111;
+			margin-left: 8px;
+			padding-top: 15px;
+			bottom: 0px;
+			width: 1024px;
+			height: 30px;
+			color: #444;
 			text-align: center;
-			color: #fff;
-			background: url("/assets/overlay.png");
-			width: 230px;
-			padding: 10px;
-			height: 230px;	
-			position: absolute;
-			bottom: 0;
-			left: 0;	
-			opacity: 0;		
-			display: table;		
-			-webkit-transition: all .4s ease;
-			-moz-transition: all .4s ease;
-			-ms-transition: all .4s ease;
-			-o-transition: all .4s ease;
-			transition: all .4s ease;
-
-			.info {
-				height: 230px;
-				display: table-cell;
-				vertical-align: middle;
-			
-				h1 {
-					text-transform: uppercase;
-					font-family: 'Arial Black', sans-serif;
-					font-size: 30px;
-					font-weight: 900;
-					margin-bottom: -15px;
-				}
-
-				p {
-					color: #EBD42A;
-				}
-			}
 		}
-
-		.det_wide {
-			width: 272px;
-			margin-left: -292px;
-		}
-
-		.box:hover {
-			
-			.details{
-				opacity: .9;
-			}
-		}
-	}
-
-	#footer {
-		position: relative;
-		background: #111111;
-		margin-left: 8px;
-		padding-top: 15px;
-		bottom: 0px;
-		width: 1024px;
-		height: 30px;
-		color: #444;
-		text-align: center;
 	}
 }
 
