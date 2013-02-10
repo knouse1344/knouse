@@ -69,18 +69,21 @@
 }
 
 #SA_feature {
-	padding: 10px;
+	width: 1024px;
+	padding-top: 8px;
+	margin-left: 8px;
 	padding-bottom: 80px;
+	background: #DDDDDD;
 
 	img {
 		margin-left: 8px;
 		margin-bottom: 40px;
 		width: 1000px;
-		border: 2px solid #F2EF2C;
+		border: 2px solid #555;
 	}
 
 	h1 {
-		color: #fff;
+		color: #111;
 		font-size: 1.2em;
 		line-height: 1.2em;
 		font-family: 'Cinzel Decorative', cursive;
@@ -89,7 +92,7 @@
 	}
 
 	h2 {
-		color: #fff;
+		color: #111;
 		font-size: .9em;
 		line-height: .8em;
 		font-family: 'Cinzel Decorative', cursive;
@@ -99,7 +102,18 @@
 	}
 
 	p {
-		color: #fff;
+		color: #333;
 		margin-left: 10px;
+		margin-right: 10px;
+		
+		a {
+			color: #7E83A3;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #999;
+			text-decoration: underline;
+		}
 	}
 }
