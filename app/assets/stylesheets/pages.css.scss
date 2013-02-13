@@ -55,16 +55,62 @@
 	width: 1024px;
 	height: 1260px;
 
-	.download_me {
-		position: relative;
-		margin-left: 55px;
-		top: 335px;
+	img {
+		width: 50px;
 	}
 
-	.download_tai{
+	.download_me {
 		position: relative;
-		margin-left: -107px;
-		top: 441px;
+		left: 108px;
+		top: 335px;
+		width: 50px;
+		height: 66px;
+
+		.arrow {
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			-webkit-transition: all .2s ease;
+			-moz-transition: all .2s ease;
+			-ms-transition: all .2s ease;
+			-o-transition: all .2s ease;
+			transition: all .2s ease;
+		}
+	}
+
+	.download_me:hover {
+
+		.arrow {
+			opacity: 1;
+		}
+	}
+
+	.download_tai {
+		position: relative;
+		left: 108px;
+		top: 370px;
+		width: 50px;
+		height: 66px;
+
+		.arrow {
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			-webkit-transition: all .2s ease;
+			-moz-transition: all .2s ease;
+			-ms-transition: all .2s ease;
+			-o-transition: all .2s ease;
+			transition: all .2s ease;
+		}
+	}
+
+	.download_tai:hover {
+
+		.arrow {
+			opacity: 1;
+		}
 	}
 }
 
