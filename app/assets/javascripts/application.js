@@ -13,3 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+var angle = 0.0;
+setInterval(function() {
+    console.log(angle);
+    $("#clownpenis")
+        .css('-webkit-transform', 'rotate('+angle+'deg)')
+        .css('-moz-transform', 'rotate('+angle+'deg)')
+        .css('-ms-transform', 'rotate('+angle+'deg)');
+    angle=angle+.1;
+}, 50);

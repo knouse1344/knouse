@@ -19,4 +19,7 @@ class MainController < ApplicationController
 
   def baja
   end
+
+  def test
+  end
 end

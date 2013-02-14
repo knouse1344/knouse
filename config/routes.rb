@@ -11,7 +11,7 @@ KnouSe::Application.routes.draw do
   get 'main/parkland'
   get 'main/sa244'
   get 'main/baja'
-
+  get 'main/test'
 
 
   # The priority is based upon order of creation:
