@@ -19,9 +19,21 @@ body {
 	overflow-y: scroll;
 	height: 100%;
 
+	.gear_1 {
+		position: absolute;
+		z-index: -10000;
+		height: 307px;
+		width: 318px;
+		opacity: .15;
+		margin-left: 5%;
+		margin-top: 10em;
+		background: url("/assets/bg/gear_1.png") no-repeat; 
+	}
+
 	#bg {
-		background: url("/assets/bg_5.jpg") no-repeat;
-		background-position: 0% 100px;
+		z-index: 10;
+		background: url("/assets//bg/bg_7.jpg") no-repeat;
+		background-position: 0% 6em;
 		min-height: 100%;
 	}
 }
