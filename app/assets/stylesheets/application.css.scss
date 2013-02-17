@@ -24,15 +24,81 @@ body {
 		z-index: -10000;
 		height: 307px;
 		width: 318px;
-		opacity: .15;
-		margin-left: 5%;
-		margin-top: 10em;
+		opacity: .1;
+		margin-left: 6%;
+		margin-top: 23em;
 		background: url("/assets/bg/gear_1.png") no-repeat; 
+	}
+
+	.gear_2 {
+		position: absolute;
+		z-index: -10000;
+		height: 327px;
+		width: 330px;
+		opacity: .1;
+		margin-left: 19.5%;
+		margin-top: 13em;
+		background: url("/assets/bg/gear_2.png") no-repeat; 
+	}
+
+	.gear_3 {
+		position: absolute;
+		z-index: -10000;
+		height: 269px;
+		width: 272px;
+		opacity: .1;
+		margin-left: 32%;
+		margin-top: 28em;
+		background: url("/assets/bg/gear_3.png") no-repeat; 
+	}
+
+	.gear_4 {
+		position: absolute;
+		z-index: -10000;
+		height: 236px;
+		width: 243px;
+		opacity: .1;
+		margin-left: 25%;
+		margin-top: 28em;
+		background: url("/assets/bg/gear_4.png") no-repeat; 
+	}
+
+	.gear_5 {
+		position: absolute;
+		z-index: -10000;
+		height: 221px;
+		width: 238px;
+		opacity: .1;
+		margin-left: 21.75%;
+		margin-top: 34em;
+		background: url("/assets/bg/gear_5.png") no-repeat; 
+	}
+
+	.gear_6 {
+		position: absolute;
+		z-index: -10000;
+		height: 136px;
+		width: 143px;
+		opacity: .1;
+		margin-left: 11.9%;
+		margin-top: 45.5em;
+		background: url("/assets/bg/gear_6.png") no-repeat; 
+	}
+
+	.gear_7 {
+		position: absolute;
+		z-index: -10000;
+		height: 142px;
+		width: 143px;
+		opacity: .1;
+		margin-left: 13.1%;
+		margin-top: 52.5em;
+		background: url("/assets/bg/gear_7.png") no-repeat; 
 	}
 
 	#bg {
 		z-index: 10;
-		background: url("/assets//bg/bg_7.jpg") no-repeat;
+		background: url("/assets//bg/watch_bg_png.png") no-repeat;
 		background-position: 0% 6em;
 		min-height: 100%;
 	}
