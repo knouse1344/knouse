@@ -3,6 +3,7 @@
 	height: 235px;
 	margin-left: 8px;
 	margin-bottom: 8px;
+	margin-top:0;
 
 	img {
 		width: 1024px;
@@ -42,6 +43,74 @@
 #Nest_feature {
 	margin-left: 8px;
 	margin-top: 8px;
+
+	.info_bar {
+		background: #619dc2;
+		width: 1024px;
+		height: 215px;
+		padding-top: 20px;
+		margin-bottom: 8px;
+		margin-top: 0px;
+
+		.title {
+			color: #BBBBBB;
+			text-shadow: 1px 1px #666;
+			font-size: 1.75em;
+			line-height: .9em;
+			font-family: 'Arial';
+			font-weight: bold;
+			height: 45px;
+			width: 300px;
+			margin-left: 20px;
+
+			.large {
+				font-size: 1.5em;
+				text-transform: uppercase;
+			}
+		}
+
+		.summ1{
+			font-size: .95em;
+			font-family: 'Arial';
+			line-height: 1.2em;
+			margin-left: 23px;
+			margin-right: 20px;
+			margin-top: 15px;
+			color: #eeeeee;		
+			text-shadow: 1px 1px #888;	
+		}
+
+		.summ2 {
+			font-size: .95em;
+			font-family: 'Arial';
+			line-height: 1.2em;
+			margin-left: 23px;
+			margin-right: 20px;
+			margin-top: -7px;
+			color: #eeeeee;
+			text-shadow: 1px 1px #888;
+
+			a {
+				text-decoration: none;
+				color: #cccccc;
+			}
+
+			a:hover {
+				text-decoration: underline;
+			}
+		}
+
+		.summ3 {
+			font-size: .95em;
+			font-family: 'Arial';
+			line-height: 1.2em;
+			margin-left: 23px;
+			margin-right: 20px;
+			margin-top: -7px;
+			color: #eeeeee;
+			text-shadow: 1px 1px #888;		
+		}
+	}
 
 	img {
 		width: 1024px;
