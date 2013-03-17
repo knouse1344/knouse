@@ -4,11 +4,22 @@
 	  <title>Bryan Knouse</title>
 	  <%= stylesheet_link_tag    "application", :media => "all" %>
 	  <%= javascript_include_tag "application" %>
-	  <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900' rel='stylesheet' type='text/css'>
-	  
 	  <%= csrf_meta_tags %>
-	 	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+
+  	    <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900' rel='stylesheet' type='text/css'>	  
+ 		<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
 		<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			    $("#fancybox").fancybox({
+			          helpers: {
+			              title : {
+			                  type : 'float'
+			              }
+			          }
+			    });
+			});
+		</script>
 
 		<script type="text/javascript">
 			  var _gaq = _gaq || [];
@@ -25,7 +36,7 @@
 		</script>
 
 	</head>
-	
+
 	<body>
 	<div class="gear_1"> </div>	
 	<div class="gear_2"> </div>	
