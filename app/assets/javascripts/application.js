@@ -14,6 +14,17 @@
 //= require jquery_ujs
 //= require_tree .
 
+
+$(document).ready(function() {
+    $("#fancybox").fancybox({
+          helpers: {
+              title : {
+                  type : 'float'
+              }
+          }
+    });
+});
+
 var angle = 0.0;
 setInterval(function() {
     console.log(angle);
