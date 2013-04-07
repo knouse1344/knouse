@@ -189,12 +189,14 @@
 	margin-left: 8px;
 	padding-bottom: 80px;
 	background: #DDDDDD;
+	
+	#fancybox {
+		margin-left: 40px;
+	}
 
 	img {
-		margin-left: 8px;
-		margin-bottom: 40px;
-		width: 1000px;
-		border: 2px solid #555;
+		border: 1px solid #999;
+		margin-bottom: 15px;
 	}
 
 	h1 {
@@ -222,7 +224,7 @@
 		font-size: .9em;
 		line-height: .8em;
 		font-family: 'Arial';
-		margin-left: 10px;
+		margin-left: 40px;
 		margin-top: 30px;
 	}
 
@@ -236,8 +238,9 @@
 
 	p {
 		color: #333;
-		margin-left: 10px;
+		margin-left: 40px;
 		margin-right: 10px;
+		font-family: 'Verdana';	
 		
 		a {
 			color: #7E83A3;
