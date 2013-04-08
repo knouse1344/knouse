@@ -52,86 +52,126 @@
 }
 
 #Nest_page {
-	background: #455;
+	background: #D3DCE0;
 
 	#Nest_feature {
-		margin-left: 8px;
-		margin-top: 8px;
+		width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 
-		.info_bar {
-			background: #619dc2;
-			width: 1024px;
-			height: 215px;
-			padding-top: 20px;
-			margin-bottom: 8px;
-			margin-top: 0px;
+#Rapgenius_page {
+	background: #555;
 
-			.title {
-				color: #BBBBBB;
-				text-shadow: 1px 1px #666;
-				font-size: 1.75em;
-				line-height: .9em;
-				font-family: 'Arial';
-				font-weight: bold;
-				height: 45px;
-				width: 300px;
-				margin-left: 20px;
+	#Rapgenius_feature {
+		width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+#SA_page {
+	background: #fcfcfc;
 
-				.large {
-					font-size: 1.5em;
-					text-transform: uppercase;
-				}
-			}
-
-			.summ1{
-				font-size: .95em;
-				font-family: 'Arial';
-				line-height: 1.2em;
-				margin-left: 23px;
-				margin-right: 20px;
-				margin-top: 15px;
-				color: #eeeeee;		
-				text-shadow: 1px 1px #888;	
-			}
-
-			.summ2 {
-				font-size: .95em;
-				font-family: 'Arial';
-				line-height: 1.2em;
-				margin-left: 23px;
-				margin-right: 20px;
-				margin-top: -7px;
-				color: #eeeeee;
-				text-shadow: 1px 1px #888;
-
-				a {
-					text-decoration: none;
-					color: #cccccc;
-				}
-
-				a:hover {
-					text-decoration: underline;
-				}
-			}
-
-			.summ3 {
-				font-size: .95em;
-				font-family: 'Arial';
-				line-height: 1.2em;
-				margin-left: 23px;
-				margin-right: 20px;
-				margin-top: -7px;
-				color: #eeeeee;
-				text-shadow: 1px 1px #888;		
-			}
+	#SA_feature {
+		width: 1024px;
+		padding-top: 8px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 80px;
+		background: #eee;
+		
+		#fancybox {
+			margin-left: 40px;
 		}
 
 		img {
-			width: 1025px;
+			border: 1px solid #999;
+			margin-bottom: 15px;
+		}
+
+		h1 {
+			color: #111;
+			font-size: 1.2em;
+			line-height: 1.2em;
+			font-family: 'Arial';
+			text-transform: uppercase;
+			font-weight: bold;
+			margin-left: 10px;
+		}
+
+		.second {
+			color: #111;
+			font-size: .9em;
+			line-height: .8em;
+			font-family: 'Cinzel Decorative', cursive;
+			font-weight: normal;
+			margin-left: 10px;
+			margin-bottom: 20px;
+		}
+
+		h3 {
+			color: #111;
+			font-size: .9em;
+			line-height: .8em;
+			font-family: 'Arial';
+			margin-left: 40px;
+			margin-top: 30px;
+		}
+
+		.pic_group {
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+
+		}
+
+		p {
+			color: #333;
+			margin-left: 40px;
+			margin-right: 10px;
+			font-family: 'Verdana';	
+			
+			a {
+				color: #7E83A3;
+				text-decoration: none;
+			}
+
+			a:hover {
+				color: #999;
+				text-decoration: underline;
+			}
 		}
 	}
 }
 
+#SOTB_page {
+	background: url('/assets/sotb_bg.png') repeat-x repeat-y;
+
+	#SOTB_info {
+		width: 1024px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		margin-left: auto;
+		margin-right: auto;
+
+		img {
+			width: 1024px;
+		}
+		
+	}
+
+	#SOTB_feature {
+		width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+
+		img {
+			width: 1024px;
+		}
+	}
+}
 
 #UR_page {
 	background: #fff;
@@ -201,82 +241,6 @@
 
 			.arrow {
 				opacity: 1;
-			}
-		}
-	}
-}
-
-#SA_page {
-	background: #9b1d1d;
-
-	#SA_feature {
-		width: 1024px;
-		padding-top: 8px;
-		margin-left: auto;
-		margin-right: auto;
-		padding-bottom: 80px;
-		background: #DDDDDD;
-		
-		#fancybox {
-			margin-left: 40px;
-		}
-
-		img {
-			border: 1px solid #999;
-			margin-bottom: 15px;
-		}
-
-		h1 {
-			color: #111;
-			font-size: 1.2em;
-			line-height: 1.2em;
-			font-family: 'Arial';
-			text-transform: uppercase;
-			font-weight: bold;
-			margin-left: 10px;
-		}
-
-		.second {
-			color: #111;
-			font-size: .9em;
-			line-height: .8em;
-			font-family: 'Cinzel Decorative', cursive;
-			font-weight: normal;
-			margin-left: 10px;
-			margin-bottom: 20px;
-		}
-
-		h3 {
-			color: #111;
-			font-size: .9em;
-			line-height: .8em;
-			font-family: 'Arial';
-			margin-left: 40px;
-			margin-top: 30px;
-		}
-
-		.pic_group {
-			width: 900px;
-			margin-left: auto;
-			margin-right: auto;
-			text-align: center;
-
-		}
-
-		p {
-			color: #333;
-			margin-left: 40px;
-			margin-right: 10px;
-			font-family: 'Verdana';	
-			
-			a {
-				color: #7E83A3;
-				text-decoration: none;
-			}
-
-			a:hover {
-				color: #999;
-				text-decoration: underline;
 			}
 		}
 	}
