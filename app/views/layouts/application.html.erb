@@ -46,115 +46,135 @@
 	<div class="gear_6"> </div>	
 	<div class="gear_7"> </div>	 -->
 
-		<div id="main">
+	<div id="main">
 
-			<div class="intro"> 
-				<a class="title" href="/main/home">Bryan Knouse </a></br>
-<!-- 				<div class="linkgrp">
-					<a class="links" href="mailto:bknouse@u.rochester.edu"> Email </a>
-					<a class="links" href="http://www.linkedin.com/pub/bryan-knouse/35/a7/a57" target="blank"> LinkedIn </a>
-					<a class="links" href="https://github.com/knouse1344" target="blank"> Github </a>
-				</div> -->
+		<div class="intro"> 
+			<a class="title" href="/main/home">Bryan Knouse </a></br>
+			<div class="linkgrp">
+				<a class="links" href="mailto:bknouse@u.rochester.edu"> Email </a>
+				<a class="links" href="http://www.linkedin.com/pub/bryan-knouse/35/a7/a57" target="blank"> LinkedIn </a>
+				<a class="links" href="https://github.com/knouse1344" target="blank"> Github </a>
 			</div>
-			
-			<div id="navi">
-				<div class="sections">
+		</div>
+		
+		<div id="navi">
+			<div id="mi-slider" class="mi-slider">
+				<ul>
+					<li><a href="/main/parkland"><img src="/assets/phs_box_logo.png" alt="img01"><h4>Parkland High School</h4></a></li>
+					<li><a href="/main/rochester"><img src="/assets/ur_box_logo.png" alt="img02"><h4>University of Rochester</h4></a></li>
+					<li><a href="/main/sa244"><img src="/assets/sa244_box_logo.png" alt="img03"><h4>SA244: Expanded Photography</h4></a></li>
+				</ul>
+				<ul>
+					<li><a href="/main/sotb"><img src="/assets/sotb_box_logo.png" alt="img05"><h4>Sports on the Brain</h4></a></li>
+					<li><a href="/main/bluefields"><img src="/assets/BF_box_logo.png" alt="img06"><h4>Bluefields</h4></a></li>
+					<li><a href="/main/rapgenius"><img src="/assets/rapgenius_box_logo.png" alt="img07"><h4>Rapgenius/h4></a></li>
+				</ul>
+				<ul>
+					<li><a href="/main/nest"><img src="/assets/nest_box_logo.png" alt="img09"><h4>Nest Product Design</h4></a></li>
+					<li><a href="#"><img src="/assets/" alt="img10"><h4>ME205 Senior Design</h4></a></li>
+					<li><a href="#"><img src="/assets/" alt="img11"><h4>Storyboard</h4></a></li>
+				</ul>
+				<nav>
 					<a href="#">Education</a>
 					<a href="#">Development</a>
 					<a href="#">Design</a>
-				</div>
-				<div class="chapter">
-					<%= link_to(image_tag("Nav_book.png"), "/main/rochester") %>
-					<a href="/main/rochester" class="details"></a>
-				</div>
+				</nav>
 			</div>
+			<script>
+				$(function() {
 
-			<div id="content">
-				
-					<!-- <div id="row_1">
-						<div class="box"> 
-							<%= link_to(image_tag("phs_box_logo.png"), "/main/parkland") %> 
-							<a href="/main/parkland" class="details"> 
-								<div class="info">
-									<h1> Parkland High School </h1>
-									<p> Allentown, Pennsylvania </p> 
-								</div>
-							</a> 
-						</div>
-						<div class="box"> 
-							<%= link_to(image_tag("ur_box_logo.png"), "/main/rochester") %> 
-							<a href="/main/rochester" class="details"> 
-								<div class="info">
-									<h1> University of Rochester </h1>
-									<p> Rochester, New York </p> 
-								</div>
-							</a> 						
-						</div>
-						<div class="box"> 
-							<%= link_to(image_tag("sotb_box_logo.png"), "/main/sotb") %>
-							<a href="/main/sotb" class="details"> 
-								<div class="info">
-									<h1> Sports On The Brain </h1>
-									<p> Bluefields Blog Redesign </p> 
-								</div>
-							</a> 						
-						</div>					
-						<div class="box"> 
-							<%= link_to(image_tag("BF_box_logo.png"), "/main/bluefields") %> 
-							<a href="/main/bluefields" class="details"> 
-								<div class="info">
-									<h1> Bluefields </h1>
-									<p> Marketing and Design </p> 
-								</div>
-							</a> 				
-						</div>
-					</div>
+					$( '#mi-slider' ).catslider();
 
-					<div id="row_2">
-						<div class="box"> 
-							<%= link_to(image_tag("rapgenius_box_logo.png"), "/main/rapgenius") %> 
-							<a href="/main/rapgenius" class="details"> 
-								<div class="info">
-									<h1> Rapgenius </h1>
-									<p> Design Review </p> 
-								</div>
-							</a> 
-						</div>
-						<div class="box"> 
-							<%= link_to image_tag("baja_box_logo.png"), "/main/baja" %>
-							<a href="/main/baja" class="details"> 
-								<div class="info">
-									<h1> SAE Mini Baja </h1>
-									<p> University of Rochester </p> 
-								</div>
-							</a> 
-						</div>
-						<div class="box"> 
-							<%= link_to(image_tag("sa244_box_logo.png"), "/main/sa244") %>
-							<a href="/main/sa244" class="details"> 
-								<div class="info">
-									<h1> SA 244 </h1>
-									<p> Studio Arts </p> 
-								</div>
-							</a> 
-						</div>
-						<div class="box"> 
-							<%= link_to(image_tag("nest_box_logo.png"), "/main/nest") %>
-							<a href="/main/nest" class="details">
-								<div class="info">
-									<h1> Nest </h1>
-									<p> KPCB Design Fellowship Application </p>
-								</div>
-							</a>
-						</div>		
-					</div> -->
-
-					<%= yield %>
-<!-- 	
-				<div id="footer">
-					Bryan Knouse
-				</div> -->
-			</div>
+				});
+			</script>
 		</div>
+
+		<div id="content">
+			
+				<!-- <div id="row_1">
+					<div class="box"> 
+						<%= link_to(image_tag("phs_box_logo.png"), "/main/parkland") %> 
+						<a href="/main/parkland" class="details"> 
+							<div class="info">
+								<h1> Parkland High School </h1>
+								<p> Allentown, Pennsylvania </p> 
+							</div>
+						</a> 
+					</div>
+					<div class="box"> 
+						<%= link_to(image_tag("ur_box_logo.png"), "/main/rochester") %> 
+						<a href="/main/rochester" class="details"> 
+							<div class="info">
+								<h1> University of Rochester </h1>
+								<p> Rochester, New York </p> 
+							</div>
+						</a> 						
+					</div>
+					<div class="box"> 
+						<%= link_to(image_tag("sotb_box_logo.png"), "/main/sotb") %>
+						<a href="/main/sotb" class="details"> 
+							<div class="info">
+								<h1> Sports On The Brain </h1>
+								<p> Bluefields Blog Redesign </p> 
+							</div>
+						</a> 						
+					</div>					
+					<div class="box"> 
+						<%= link_to(image_tag("BF_box_logo.png"), "/main/bluefields") %> 
+						<a href="/main/bluefields" class="details"> 
+							<div class="info">
+								<h1> Bluefields </h1>
+								<p> Marketing and Design </p> 
+							</div>
+						</a> 				
+					</div>
+				</div>
+
+				<div id="row_2">
+					<div class="box"> 
+						<%= link_to(image_tag("rapgenius_box_logo.png"), "/main/rapgenius") %> 
+						<a href="/main/rapgenius" class="details"> 
+							<div class="info">
+								<h1> Rapgenius </h1>
+								<p> Design Review </p> 
+							</div>
+						</a> 
+					</div>
+					<div class="box"> 
+						<%= link_to image_tag("baja_box_logo.png"), "/main/baja" %>
+						<a href="/main/baja" class="details"> 
+							<div class="info">
+								<h1> SAE Mini Baja </h1>
+								<p> University of Rochester </p> 
+							</div>
+						</a> 
+					</div>
+					<div class="box"> 
+						<%= link_to(image_tag("sa244_box_logo.png"), "/main/sa244") %>
+						<a href="/main/sa244" class="details"> 
+							<div class="info">
+								<h1> SA 244 </h1>
+								<p> Studio Arts </p> 
+							</div>
+						</a> 
+					</div>
+					<div class="box"> 
+						<%= link_to(image_tag("nest_box_logo.png"), "/main/nest") %>
+						<a href="/main/nest" class="details">
+							<div class="info">
+								<h1> Nest </h1>
+								<p> KPCB Design Fellowship Application </p>
+							</div>
+						</a>
+					</div>		
+				</div> -->
+
+				<%= yield %>
+<!-- 	
+			<div id="footer">
+				Bryan Knouse
+			</div> -->
+		</div>
+	</div>
 	</body>
 </html>
