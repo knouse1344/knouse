@@ -40,9 +40,40 @@
 		width: 1024px;
 	}
 }
+#Bluefields_page {
+	background: url('/assets/bg/BF_bg.png');
 
+	#Bluefields_info {
+		width: 892px;
+		margin-left: auto;
+		margin-right:auto;
+
+		img {
+			width: 892px;
+			margin-top: 15px;
+		}
+	}
+
+	#Bluefields_feature {
+		width: 892px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 #Parkland_page {
 	background: #111;
+
+	#Parkland_info {
+		width: 1024px;
+		margin-bottom: 8px;
+		margin-left: auto;
+		margin-right: auto;
+
+		img {
+			width: 1024px;
+			margin-top: 15px;
+		}
+	}
 
 	#youtube_feature {
 		width: 1024px;
@@ -62,7 +93,7 @@
 }
 
 #Rapgenius_page {
-	background: #555;
+	background: url('/assets/bg/Rapgenius_bg.png');
 
 	#Rapgenius_feature {
 		width: 1024px;
@@ -147,28 +178,28 @@
 }
 
 #SOTB_page {
-	background: url('/assets/sotb_bg.png') repeat-x repeat-y;
+	background: url('/assets/bg/BF_bg.png');
 
 	#SOTB_info {
-		width: 1024px;
-		margin-top: 8px;
+		width: 892px;
 		margin-bottom: 8px;
 		margin-left: auto;
 		margin-right: auto;
 
 		img {
-			width: 1024px;
+			margin-top: 15px;
+			width: 892px;
 		}
 		
 	}
 
 	#SOTB_feature {
-		width: 1024px;
+		width: 892px;
 		margin-left: auto;
 		margin-right: auto;
 
 		img {
-			width: 1024px;
+			width: 892px;
 		}
 	}
 }

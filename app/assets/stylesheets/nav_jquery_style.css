@@ -11,7 +11,7 @@
 	position: absolute;
 	width: 100%;
 	margin-left: 350px;
-	top: -3em;
+	top: -2em;
 	overflow: hidden;
 	text-align: left;
 	pointer-events: none;
@@ -49,7 +49,7 @@
 .mi-slider ul li a,
 .mi-slider ul li img {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto -10px;
 }
 
 .mi-slider ul li a {
