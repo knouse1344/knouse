@@ -7,10 +7,7 @@ class MainController < ApplicationController
 
   def sotb
   end
-
-  def ur_soccer
-  end
-
+  
   def nest
   end
 
