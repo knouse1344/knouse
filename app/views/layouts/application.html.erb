@@ -38,31 +38,40 @@
 	</head>
 
 	<body>
-	<div class="gear_1"> </div>	
+<!-- 	<div class="gear_1"> </div>	
 	<div class="gear_2"> </div>	
 	<div class="gear_3"> </div>	
 	<div class="gear_4"> </div>	
 	<div class="gear_5"> </div>	
 	<div class="gear_6"> </div>	
-	<div class="gear_7"> </div>	
-
-	<div id="bg">
+	<div class="gear_7"> </div>	 -->
 
 		<div id="main">
 
 			<div class="intro"> 
 				<a class="title" href="/main/home">Bryan Knouse </a></br>
-				<div class="linkgrp">
+<!-- 				<div class="linkgrp">
 					<a class="links" href="mailto:bknouse@u.rochester.edu"> Email </a>
 					<a class="links" href="http://www.linkedin.com/pub/bryan-knouse/35/a7/a57" target="blank"> LinkedIn </a>
 					<a class="links" href="https://github.com/knouse1344" target="blank"> Github </a>
+				</div> -->
+			</div>
+			
+			<div id="navi">
+				<div class="sections">
+					<a href="#">Education</a>
+					<a href="#">Development</a>
+					<a href="#">Design</a>
+				</div>
+				<div class="chapter">
+					<%= link_to(image_tag("Nav_book.png"), "/main/rochester") %>
+					<a href="/main/rochester" class="details"></a>
 				</div>
 			</div>
 
 			<div id="content">
-				<div id="navi">
-
-					<div id="row_1">
+				
+					<!-- <div id="row_1">
 						<div class="box"> 
 							<%= link_to(image_tag("phs_box_logo.png"), "/main/parkland") %> 
 							<a href="/main/parkland" class="details"> 
@@ -138,17 +147,14 @@
 								</div>
 							</a>
 						</div>		
-					</div>
+					</div> -->
 
-				</div>
-
-				<%= yield %>
-
+					<%= yield %>
+<!-- 	
 				<div id="footer">
 					Bryan Knouse
-				</div>
+				</div> -->
 			</div>
 		</div>
-	</bg>
 	</body>
 </html>
