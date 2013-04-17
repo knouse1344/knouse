@@ -40,6 +40,7 @@
 		width: 1024px;
 	}
 }
+
 #Bluefields_page {
 	background: url('/assets/bg/BF_bg.png');
 
@@ -56,6 +57,22 @@
 
 	#Bluefields_feature {
 		width: 892px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+#Chameleon_page {
+	background: #eeeeee;
+
+	#Chameleon_info {
+		width: 892px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#Chameleon_feature {
+		width: 1400px;
 		margin-left: auto;
 		margin-right: auto;
 	}
