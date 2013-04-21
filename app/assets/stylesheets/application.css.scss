@@ -17,7 +17,7 @@ html {
 body {
 	background: #fcfcfc;
 
-	.gear_1 {
+/*	.gear_1 {
 		position: absolute;
 		z-index: -10000;
 		height: 300px;
@@ -81,17 +81,126 @@ body {
 		margin-left: 630px;
 		margin-top: 250px;
 		background: url("/assets/bg/gear_6.png") no-repeat; 
+	}*/
+
+	.info_one {
+		position: absolute;
+		margin-left: 10%;
+		margin-top: 6em;
+		width: 450px;
+		height: 300px;
+
+		.box {
+			height: 208px;
+			width: 208px;
+			margin-left: auto;
+			margin-right: auto;
+			cursor: pointer;
+
+			.text {
+				transition: opacity .5s;
+				-webkit-transition: opacity .5s; 
+				opacity: 0;
+				width: 450px;
+				margin-left: -121px;
+				margin-top: 2em;
+				text-align: center;
+				cursor: default;
+			}
+		}
+
+		.box:hover {
+			.text {
+				opacity: 1;
+			}
+		}
+
+		.gear_a {
+			height: 207px;
+			width: 207px;
+			opacity: .3;
+			background: url("/assets/bg/gear_5.png") no-repeat; 
+		}
 	}
 
-	.gear_7 {
+	.info_two {
 		position: absolute;
-		z-index: -10000;
-		height: 129px;
-		width: 129px;
-		opacity: .4;
-		margin-left: 645px;
-		margin-top: 300px;
-		background: url("/assets/bg/gear_7.png") no-repeat; 
+		margin-left: 35%;
+		margin-top: 6em;
+		width: 450px;
+		height: 300px;
+
+		.box {
+			height: 208px;
+			width: 208px;
+			margin-left: auto;
+			margin-right: auto;
+			cursor: pointer;
+
+			.text {
+				transition: opacity .5s;
+				-webkit-transition: opacity .5s; 
+				opacity: 0;
+				width: 450px;
+				margin-left: -121px;
+				margin-top: 2em;
+				text-align: center;
+				cursor: default;
+			}
+		}
+
+		.box:hover {
+			.text {
+				opacity: 1;
+			}
+		}
+
+		.gear_b {
+			height: 207px;
+			width: 207px;
+			opacity: .3;
+			background: url("/assets/bg/gear_5.png") no-repeat; 
+		}
+	}
+	
+	.info_three {
+		position: absolute;
+		margin-left: 60%;
+		margin-top: 6em;
+		width: 450px;
+		height: 300px;
+
+		.box {
+			height: 208px;
+			width: 208px;
+			margin-left: auto;
+			margin-right: auto;
+			cursor: pointer;
+
+			.text {
+				transition: opacity .5s;
+				-webkit-transition: opacity .5s; 
+				opacity: 0;
+				width: 450px;
+				margin-left: -121px;
+				margin-top: 2em;
+				text-align: center;
+				cursor: default;
+			}
+		}
+
+		.box:hover {
+			.text {
+				opacity: 1;
+			}
+		}
+
+		.gear_c {
+			height: 207px;
+			width: 207px;
+			opacity: .3;
+			background: url("/assets/bg/gear_5.png") no-repeat; 
+		}
 	}
 
 	#bg {
