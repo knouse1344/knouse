@@ -75,32 +75,32 @@
 //     angle6=angle6-1;
 // }, 1);
 
-var anglea = 0.0;
-setInterval(function() {
-    console.log(anglea);
-    $(".gear_a")
-        .css('-webkit-transform', 'rotate('+anglea+'deg)')
-        .css('-moz-transform', 'rotate('+anglea+'deg)')
-        .css('-ms-transform', 'rotate('+anglea+'deg)');
-    anglea=anglea+.1;
-}, 1);
+// var anglea = 0.0;
+// setInterval(function() {
+//     console.log(anglea);
+//     $(".gear_a")
+//         .css('-webkit-transform', 'rotate('+anglea+'deg)')
+//         .css('-moz-transform', 'rotate('+anglea+'deg)')
+//         .css('-ms-transform', 'rotate('+anglea+'deg)');
+//     anglea=anglea+.1;
+// }, 1);
 
-var angleb = 0.0;
-setInterval(function() {
-    console.log(angleb);
-    $(".gear_b")
-        .css('-webkit-transform', 'rotate('+angleb+'deg)')
-        .css('-moz-transform', 'rotate('+angleb+'deg)')
-        .css('-ms-transform', 'rotate('+angleb+'deg)');
-    angleb=angleb-.1;
-}, 1);
+// var angleb = 0.0;
+// setInterval(function() {
+//     console.log(angleb);
+//     $(".gear_b")
+//         .css('-webkit-transform', 'rotate('+angleb+'deg)')
+//         .css('-moz-transform', 'rotate('+angleb+'deg)')
+//         .css('-ms-transform', 'rotate('+angleb+'deg)');
+//     angleb=angleb-.1;
+// }, 1);
 
-var anglec = 60.0;
-setInterval(function() {
-    console.log(anglec);
-    $(".gear_c")
-        .css('-webkit-transform', 'rotate('+anglec+'deg)')
-        .css('-moz-transform', 'rotate('+anglec+'deg)')
-        .css('-ms-transform', 'rotate('+anglec+'deg)');
-    anglec=anglec+.1;
-}, 1);
+// var anglec = 60.0;
+// setInterval(function() {
+//     console.log(anglec);
+//     $(".gear_c")
+//         .css('-webkit-transform', 'rotate('+anglec+'deg)')
+//         .css('-moz-transform', 'rotate('+anglec+'deg)')
+//         .css('-ms-transform', 'rotate('+anglec+'deg)');
+//     anglec=anglec+.1;
+// }, 1);

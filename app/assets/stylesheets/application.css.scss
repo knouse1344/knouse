@@ -120,8 +120,25 @@ body {
 			width: 207px;
 			opacity: .3;
 			background: url("/assets/bg/gear_5.png") no-repeat; 
+			-webkit-transition: all 2.5s;
+     		-moz-transition: all 2.5s;
+       		-o-transition: all 2.5s;
+      		-ms-transition: all 2.5s;
+          	transition: all 2.5s;
+		}
+
+		.gear_a:hover {
+		  -webkit-transform: rotate(-360deg);
+		     -moz-transform: rotate(-360deg);
+		       -o-transform: rotate(-360deg);
+		      -ms-transform: rotate(-360deg);
+		          transform: rotate(-360deg);
 		}
 	}
+ 
+
+
+
 
 	.info_two {
 		position: absolute;
@@ -160,6 +177,19 @@ body {
 			width: 207px;
 			opacity: .3;
 			background: url("/assets/bg/gear_5.png") no-repeat; 
+			-webkit-transition: all 2.5s;
+     		-moz-transition: all 2.5s;
+       		-o-transition: all 2.5s;
+      		-ms-transition: all 2.5s;
+          	transition: all 2.5s;
+		}
+
+		.gear_b:hover {
+		  -webkit-transform: rotate(-360deg);
+		     -moz-transform: rotate(-360deg);
+		       -o-transform: rotate(-360deg);
+		      -ms-transform: rotate(-360deg);
+		          transform: rotate(-360deg);
 		}
 	}
 	
@@ -200,6 +230,19 @@ body {
 			width: 207px;
 			opacity: .3;
 			background: url("/assets/bg/gear_5.png") no-repeat; 
+			-webkit-transition: all 2.5s;
+     		-moz-transition: all 2.5s;
+       		-o-transition: all 2.5s;
+      		-ms-transition: all 2.5s;
+          	transition: all 2.5s;
+		}
+
+		.gear_c:hover {
+		  -webkit-transform: rotate(-360deg);
+		     -moz-transform: rotate(-360deg);
+		       -o-transform: rotate(-360deg);
+		      -ms-transform: rotate(-360deg);
+		          transform: rotate(-360deg);
 		}
 	}
 
