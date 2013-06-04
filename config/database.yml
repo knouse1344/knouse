@@ -6,8 +6,9 @@
 development:
   adapter: postgresql
   database: knouse_dev
+  host: localhost
   pool: 5
-  username: postgres
+  username: bryan
   password: 
 
 # Warning: The database defined as "test" will be erased and
@@ -16,15 +17,17 @@ development:
 test:
   adapter: postgresql
   database: knouse_test
+  host: localhost
   pool: 5
-  username: postgres
+  username: bryan
   password: 
 
 
 production:
   adapter: postgresql
   database: knouse_production
+  host: localhost
   pool: 5
-  username: postgres
+  username: bryan
   password: 
 
