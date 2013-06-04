@@ -7,7 +7,7 @@ development:
   adapter: postgresql
   database: knouse_dev
   pool: 5
-  username: bryan
+  username: 
   password:
 
 # Warning: The database defined as "test" will be erased and
