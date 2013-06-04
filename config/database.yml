@@ -8,7 +8,7 @@ development:
   database: knouse_dev
   pool: 5
   username: bryan-Studio-XPS-1640
-  password:
+  password: brybo1423
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -18,7 +18,7 @@ test:
   database: knouse_test
   pool: 5
   username: bryan-Studio-XPS-1640
-  password:
+  password: brybo1423
 
 
 production:
@@ -26,5 +26,5 @@ production:
   database: knouse_production
   pool: 5
   username: bryan-Studio-XPS-1640
-  password:
+  password: brybo1423
 
