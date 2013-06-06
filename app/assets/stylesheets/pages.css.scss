@@ -43,6 +43,7 @@
 
 #Bluefields_page {
 	background: url('/assets/bg/BF_bg.png');
+	padding-bottom: 7.5em;
 
 	#Bluefields_info {
 		width: 892px;
@@ -77,6 +78,17 @@
 		margin-right: auto;
 	}
 }
+
+#Nest_page {
+	background: #D3DCE0;
+
+	#Nest_feature {
+		width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 #Parkland_page {
 	background: #111;
 
@@ -96,21 +108,38 @@
 		width: 1024px;
 		margin-left: auto;
 		margin-right: auto;
-	}
-}
+		margin-bottom: -7.5em;
+		
+		#sidecar {
+			width: 250px;
+			font-family: 'PT Sans', sans-serif;
+			position: relative;
+			top: -775px;
+			left: -20em;
 
-#Nest_page {
-	background: #D3DCE0;
+			h1 {
+				font-weight: 400;
+				border-bottom: 1px solid #666;
+				margin-bottom: .5em;
+				padding-bottom: .25em;
+				color: #C40000;
+				width: 250px;
+			}
 
-	#Nest_feature {
-		width: 1024px;
-		margin-left: auto;
-		margin-right: auto;
+			p {
+				font-size:1.15em;
+				line-height: 1.5em;
+				font-weight: 150;
+				color: #fafafa;
+				width: 250px;
+			}
+		}
 	}
 }
 
 #Rapgenius_page {
 	background: url('/assets/bg/Rapgenius_bg.png');
+	padding-bottom: 7.5em;
 
 	#Rapgenius_feature {
 		width: 1024px;
@@ -118,9 +147,11 @@
 		margin-right: auto;
 	}
 }
+
 #SA_page {
 	background: #fcfcfc;
 	font-size: 14px;
+	padding-bottom: 5em;
 
 	#SA_feature {
 		width: 1024px;
@@ -217,6 +248,31 @@
 		margin-left: auto;
 		margin-right: auto;
 
+		#sidecar {
+			width: 250px;
+			font-family: 'PT Sans', sans-serif;
+			position: absolute;
+			top: 20em;
+			margin-left: -20em;
+
+			h1 {
+				font-weight: 400;
+				border-bottom: 1px solid #666;
+				margin-bottom: .5em;
+				padding-bottom: .25em;
+				color: #C40000;
+				width: 250px;
+			}
+
+			p {
+				font-size:1.15em;
+				line-height: 1.5em;
+				font-weight: 150;
+				color: #222;
+				width: 250px;
+			}
+		}
+
 		img {
 			width: 892px;
 		}
@@ -229,7 +285,7 @@
 	#UR_feature {
 		background: url("/assets/Bknouse_resume.jpg") no-repeat;
 		margin-left: 8px;
-		margin-bottom: 8px;
+		margin-bottom: 5em;
 		background-size: 100%;
 		width: 1024px;
 		margin-left: auto;
@@ -298,6 +354,8 @@
 
 #Welcome_page {
 	background: transparent;
+	height: 50em;
+	padding-bottom: 7.5em;
 
 	.Welcome_info {
 		margin-top: 75px;
