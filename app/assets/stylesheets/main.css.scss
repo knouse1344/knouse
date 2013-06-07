@@ -23,19 +23,17 @@
 
 		.linkgrp {
 			display: inline;
+			
 
 			.links {
-				font-family: 'Arial', sans-serif;
-				font-style: italic;
-				font-size: 14px;
-				color: #eeeeee;
-				text-decoration: none;
-				margin-right: 2px;
-				margin-left: 3px;	
+				margin-left: .75em;
+				opacity: .2;
+				transition: opacity .25s;
+				-webkit-transition: opacity .25s;
 			}
 
 			.links:hover {
-				color: #aaa;
+				opacity: .75;
 			}
 		}
 	}
