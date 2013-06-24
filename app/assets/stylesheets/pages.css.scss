@@ -34,37 +34,40 @@
 }
 
 #feature {
-	margin-left: 8px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2.5em;
+	padding-bottom: 5em;
 
-	img {
-		width: 1024px;
+	#visual {
+		width: 750px;
+	}
+
+	.sidecar {
+		width: 250px;
+		font-family: 'PT Sans', sans-serif;
+		float: left;
+
+		h1 {
+			font-weight: 400;
+			border-bottom: 1px solid #666;
+			margin-bottom: .5em;
+			padding-bottom: .25em;
+			color: #C40000;
+			width: 250px;
+		}
+
+		p {
+			font-size:1.15em;
+			line-height: 1.5em;
+			font-weight: 150;
+			color: #222;
+			width: 250px;
+		}
 	}
 }
 
-#sidecar {
-	width: 250px;
-	font-family: 'PT Sans', sans-serif;
-	position: absolute;
-	top: 20em;
-	margin-left: -20em;
-
-	h1 {
-		font-weight: 400;
-		border-bottom: 1px solid #666;
-		margin-bottom: .5em;
-		padding-bottom: .25em;
-		color: #C40000;
-		width: 250px;
-	}
-
-	p {
-		font-size:1.15em;
-		line-height: 1.5em;
-		font-weight: 150;
-		color: #222;
-		width: 250px;
-	}
-}
 
 #Bluefields_page {
 	background: url('/assets/bg/BF_bg.png');
@@ -168,18 +171,11 @@
 
 #Rapgenius_page {
 	background: url('/assets/bg/Rapgenius_bg.png');
-	padding-bottom: 7.5em;
+	
+	.sidecar {
 
-	#Rapgenius_feature {
-		width: 1024px;
-		margin-left: auto;
-		margin-right: auto;
-
-		#sidecar {
-
-			p {
-				color: #eee;
-			}
+		p {
+			color: #eee;
 		}
 	}
 }
@@ -279,28 +275,11 @@
 		
 	}
 
-	#SOTB_feature {
-		width: 892px;
+	.sotb-analytics {
+		margin-top: 5em;
+		width: 749px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 5em;
-		margin-bottom: 10em;
-
-		.sotb-top {
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		.sotb-analytics {
-			margin-top: 5em;
-			width: 916px;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		img {
-			width: 892px;
-		}
 	}
 }
 
