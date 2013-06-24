@@ -41,6 +41,31 @@
 	}
 }
 
+#sidecar {
+	width: 250px;
+	font-family: 'PT Sans', sans-serif;
+	position: absolute;
+	top: 20em;
+	margin-left: -20em;
+
+	h1 {
+		font-weight: 400;
+		border-bottom: 1px solid #666;
+		margin-bottom: .5em;
+		padding-bottom: .25em;
+		color: #C40000;
+		width: 250px;
+	}
+
+	p {
+		font-size:1.15em;
+		line-height: 1.5em;
+		font-weight: 150;
+		color: #222;
+		width: 250px;
+	}
+}
+
 #Bluefields_page {
 	background: url('/assets/bg/BF_bg.png');
 	padding-bottom: 7.5em;
@@ -60,6 +85,10 @@
 		width: 892px;
 		margin-left: auto;
 		margin-right: auto;
+
+		img {
+			margin-top: 2em;
+		}
 	}
 }
 
@@ -145,6 +174,13 @@
 		width: 1024px;
 		margin-left: auto;
 		margin-right: auto;
+
+		#sidecar {
+
+			p {
+				color: #eee;
+			}
+		}
 	}
 }
 
@@ -228,7 +264,7 @@
 }
 
 #SOTB_page {
-	background: url('/assets/bg/BF_bg.png');
+	background: url('/assets/bg/SOTB_bg.jpg');
 
 	#SOTB_info {
 		width: 892px;
@@ -244,34 +280,22 @@
 	}
 
 	#SOTB_feature {
-		width: 1024px;
-		border: 1px solid;
+		width: 892px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 5em;
+		margin-bottom: 10em;
 
-		#sidecar {
-			width: 250px;
-			font-family: 'PT Sans', sans-serif;
-			position: absolute;
-			top: 20em;
-			margin-left: -20em;
+		.sotb-top {
+			margin-left: auto;
+			margin-right: auto;
+		}
 
-			h1 {
-				font-weight: 400;
-				border-bottom: 1px solid #666;
-				margin-bottom: .5em;
-				padding-bottom: .25em;
-				color: #C40000;
-				width: 250px;
-			}
-
-			p {
-				font-size:1.15em;
-				line-height: 1.5em;
-				font-weight: 150;
-				color: #222;
-				width: 250px;
-			}
+		.sotb-analytics {
+			margin-top: 5em;
+			width: 916px;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		img {
