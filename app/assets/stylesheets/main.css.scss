@@ -15,7 +15,7 @@
 		margin-left: 1em;
 
 		.title {
-			font-family: proxima-nova, Helvetica, Arial, sans-serif;
+			font-family: proxima-nova, Helvetica, Arial sans-serif;
 			font-size: 2em;
 			text-decoration: none;
 			color: #eeeeee;
@@ -26,8 +26,13 @@
 			
 
 			.links {
-				margin-left: .75em;
+				font-family: Helvetica, arial, freesans, sans-serif;;
+				font-size: 1.3em;
+				letter-spacing: -1px;
+				font-weight: 700;
+				margin-right: .5em;
 				opacity: .2;
+				color: #aaa;
 				transition: opacity .25s;
 				-webkit-transition: opacity .25s;
 			}

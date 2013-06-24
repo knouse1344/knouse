@@ -14,7 +14,7 @@
 		width: 350px;
 		height: 175px;
 		margin-top:15px;
-		margin-left: 23px;
+		margin-left: 315px;
 	}
 
 	p {
@@ -244,7 +244,8 @@
 	}
 
 	#SOTB_feature {
-		width: 892px;
+		width: 1024px;
+		border: 1px solid;
 		margin-left: auto;
 		margin-right: auto;
 
@@ -283,9 +284,9 @@
 	background: #fff;
 
 	#UR_feature {
-		background: url("/assets/BKnouse_resume_TEMPLATE.jpg") no-repeat;
-		margin-left: 8px;
-		margin-bottom: 5em;
+		background: url("/assets/BKnouse_resume.png") no-repeat;
+		margin-top: 5em;
+		margin-bottom: 10em;
 		background-size: 100%;
 		width: 1024px;
 		margin-left: auto;
@@ -317,33 +318,6 @@
 		}
 
 		.download_me:hover {
-
-			.arrow {
-				opacity: 1;
-			}
-		}
-
-		.download_tai {
-			position: relative;
-			left: 125px;
-			top: 375px;
-			width: 50px;
-			height: 66px;
-
-			.arrow {
-				position: absolute;
-				top: 0;
-				left: 0;
-				opacity: 0;
-				-webkit-transition: all .2s ease;
-				-moz-transition: all .2s ease;
-				-ms-transition: all .2s ease;
-				-o-transition: all .2s ease;
-				transition: all .2s ease;
-			}
-		}
-
-		.download_tai:hover {
 
 			.arrow {
 				opacity: 1;
