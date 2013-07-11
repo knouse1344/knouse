@@ -34,7 +34,8 @@
 }
 
 #feature {
-	width: 1024px;
+	width: 1060px;
+	height: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 2.5em;
@@ -42,12 +43,15 @@
 
 	#visual {
 		width: 750px;
+		display: inline-block;
+		margin-left: 60px;
 	}
 
 	.sidecar {
 		width: 250px;
-		font-family: 'PT Sans', sans-serif;
-		float: left;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		float: left;	
 
 		h1 {
 			font-weight: 400;
