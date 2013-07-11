@@ -4,7 +4,7 @@
 	position: relative;
 	margin-top: 0px;
 	height: 110px;
-	margin-left: 21.5%;
+	margin-left: 400px;
 }
 
 .mi-slider ul {
@@ -70,6 +70,7 @@
 	font-weight: 400;
 	font-size: 18px;
 	color: #fcfcfc;
+	width: 205px;
 	padding: 20px 10px 0;
 }
 
@@ -79,9 +80,10 @@
 
 .mi-slider nav {
 	text-align: left;
-	max-width: 1em;
 	margin-left: .5em;
 	margin-top: 1.5em;
+	height: 110px;
+	width: 175px;
 }
 
 .no-js nav {
@@ -93,6 +95,7 @@
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin-bottom: 15px;
+	height: 18px;
 	color: #666;
 	outline: none;
 	-webkit-transition: color 0.2s linear;

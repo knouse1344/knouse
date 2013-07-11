@@ -8,11 +8,12 @@
 	width: 100%;
 	
 	.intro {
-		position:absolute;
 		text-align: left;
 		width: 300px;
-		margin-top: 2em;
+		height: 110px;
+		margin-top: 30px;
 		margin-left: 1em;
+		float: left;
 
 		.title {
 			font-family: proxima-nova, Helvetica, Arial sans-serif;
