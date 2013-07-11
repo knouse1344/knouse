@@ -45,6 +45,15 @@
 		width: 750px;
 		display: inline-block;
 		margin-left: 60px;
+
+		.single {
+			width: 750px;
+			margin-bottom: 40px;
+		}
+
+		.double {
+			width: 450px;
+		}
 	}
 
 	.sidecar {
@@ -140,35 +149,10 @@
 		}
 	}
 
-	#youtube_feature {
-		width: 1024px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: -7.5em;
-		
-		#sidecar {
-			width: 250px;
-			font-family: 'PT Sans', sans-serif;
-			position: relative;
-			top: -775px;
-			left: -20em;
+	.sidecar {
 
-			h1 {
-				font-weight: 400;
-				border-bottom: 1px solid #666;
-				margin-bottom: .5em;
-				padding-bottom: .25em;
-				color: #C40000;
-				width: 250px;
-			}
-
-			p {
-				font-size:1.15em;
-				line-height: 1.5em;
-				font-weight: 150;
-				color: #fafafa;
-				width: 250px;
-			}
+		p {
+			color: #eee;
 		}
 	}
 }
