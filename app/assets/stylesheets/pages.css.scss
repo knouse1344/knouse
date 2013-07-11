@@ -110,6 +110,7 @@
 
 #Chameleon_page {
 	background: #eeeeee;
+	padding-bottom: 7.5em;
 
 	#Chameleon_info {
 		width: 1400px;
@@ -126,6 +127,7 @@
 
 #Nest_page {
 	background: #D3DCE0;
+	padding-bottom: 7.5em;
 
 	#Nest_feature {
 		width: 1024px;
@@ -136,6 +138,7 @@
 
 #Parkland_page {
 	background: #111;
+	padding-bottom: 7.5em;
 
 	#Parkland_info {
 		width: 1024px;
@@ -159,6 +162,7 @@
 
 #Rapgenius_page {
 	background: url('/assets/bg/Rapgenius_bg.png');
+	padding-bottom: 7.5em;
 	
 	.sidecar {
 
@@ -171,7 +175,7 @@
 #SA_page {
 	background: #fcfcfc;
 	font-size: 14px;
-	padding-bottom: 5em;
+	padding-bottom: 7.5em;
 
 	#SA_feature {
 		width: 1024px;
@@ -249,6 +253,7 @@
 
 #SOTB_page {
 	background: url('/assets/bg/SOTB_bg.jpg');
+	padding-bottom: 7.5em;
 
 	#SOTB_info {
 		width: 892px;
@@ -273,6 +278,7 @@
 
 #UR_page {
 	background: #fff;
+	padding-bottom: 7.5em;
 
 	#UR_feature {
 		background: url("/assets/BKnouse_resume.png") no-repeat;
@@ -319,11 +325,11 @@
 
 #Welcome_page {
 	background: transparent;
-	height: 50em;
+	height: 100%;
 	padding-bottom: 7.5em;
 
 	.Welcome_info {
-		margin-top: 75px;
+		margin-top: 250px;
 		margin-left: 25%;
 		font-family: 'PT Sans', sans-serif;
 	
