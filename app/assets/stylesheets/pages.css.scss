@@ -329,21 +329,80 @@
 	padding-bottom: 7.5em;
 
 	.Welcome_info {
-		margin-top: 250px;
-		margin-left: 12%;
+		margin-top: 115px;
+		margin-left: 6%;
 		font-family: 'PT Sans', sans-serif;
 	
 		h1 {
-			font-size: 4em;
+			font-size: 3em;
 			font-weight: 300;
 		}
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 1.25em;
 			font-weight: 300;
 			color: #aaaaaa;
+			width: 800px;
+			margin-left: 20px;
+
+			ul {
+
+				li {
+					margin-left: 40px;
+					margin-top: 1em;
+					margin-bottom: 1em;
+				}
+			}
+
+			a {
+				color: #c12c13;
+				text-decoration: underline;
+			}
+
+			.cite {
+				font-size: .6em;
+				color: #000;
+
+				.reveal {
+					display: inline-block;
+					width: 450px;
+					height: 50px;
+					position: relative;
+					top: -.55em;
+				}
+
+				.hidden {
+					opacity: 0;
+					position:absolute;
+					font-size: 1.4em;
+					margin-left: 25px;
+					margin-top: -10px;
+				}
+
+				.reveal:hover {
+					color: #000;
+					.hidden {
+						opacity: 1;
+					}
+				}
+			}
+		}
+
+		.salsa {
+			color: #c12c13;
 		}
 	}
+
+	#current_work {
+		width: 740px;
+		height: 470px;
+		background: url('/assets/SS_web.jpg') no-repeat;
+		position: absolute;
+		right: 60px;
+		top: 125px;
+		box-shadow: 1px 1px 30px #000
+	}
+
 }
 
 #test_feature {
