@@ -313,16 +313,15 @@
 
 #Welcome_page {
 	background: transparent;
-	height: 750px;
-	width: 90%;
+	height: 600px;
+	width: 1240px;
+	margin-top: 300px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 5em;
 
 	.Welcome_info {
-		margin-top: 115px;
-		display: inline-block;
-		width: 600px;
+		float: left;
+		width: 550px;
 		font-family: 'PT Sans', sans-serif;
 	
 		h1 {
@@ -337,7 +336,7 @@
 			margin-left: 20px;
 
 			ul {
-				margin-bottom: 3em;
+				margin-bottom: 1em;
 
 				li {
 					margin-left: 40px;
@@ -386,13 +385,13 @@
 	}
 
 	#current_work {
-		width: 740px;
-		height: 470px;
+		width: 640px;
+		height: 400px;
 		background: url('/assets/SS_web.jpg') no-repeat;
-		background-size: 740px 470px;
-		display: inline-block;
-		margin-left: 100px;
-		margin-bottom: 15px;
+		background-size: 640px 400px;
+		margin-top: 10px;
+		margin-left: 40px;
+		float: left;
 		box-shadow: 1px 1px 30px #000
 	}
 
