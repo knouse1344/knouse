@@ -84,7 +84,7 @@
 
 #Bluefields_page {
 	background: url('/assets/bg/BF_bg.png');
-	padding-bottom: 7.5em;
+	padding-bottom: 4em;
 
 	#Bluefields_info {
 		width: 1060px;
@@ -110,7 +110,7 @@
 
 #Chameleon_page {
 	background: #eeeeee;
-	padding-bottom: 7.5em;
+	padding-bottom: 4em;
 
 	#Chameleon_info {
 		width: 1400px;
@@ -138,7 +138,7 @@
 
 #Parkland_page {
 	background: #111;
-	padding-bottom: 7.5em;
+	padding-bottom: 1em;
 
 	#Parkland_info {
 		width: 1060px;
@@ -241,7 +241,7 @@
 
 #SOTB_page {
 	background: url('/assets/bg/SOTB_bg.jpg');
-	padding-bottom: 7.5em;
+	padding-bottom: 4em;
 
 	#SOTB_info {
 		width: 1060px;
@@ -266,7 +266,6 @@
 
 #UR_page {
 	background: #fff;
-	padding-bottom: 7.5em;
 
 	#UR_feature {
 		background: url("/assets/BKnouse_resume.png") no-repeat;
@@ -313,15 +312,15 @@
 
 #Welcome_page {
 	background: transparent;
-	height: 600px;
 	width: 1240px;
+	height: 700px;
 	margin-top: 300px;
 	margin-left: auto;
 	margin-right: auto;
 
 	.Welcome_info {
 		float: left;
-		width: 550px;
+		width: 450px;
 		font-family: 'PT Sans', sans-serif;
 	
 		h1 {
@@ -385,24 +384,21 @@
 	}
 
 	#current_work {
-		width: 640px;
-		height: 400px;
-		background: url('/assets/SS_web.jpg') no-repeat;
-		background-size: 640px 400px;
-		margin-top: 10px;
+		width: 386px;
+		height: 500px;
 		margin-left: 40px;
+		background: url('/assets/Bullwinkles_postcard_v2_small.jpg') no-repeat;
 		float: left;
-		box-shadow: 1px 1px 30px #000
+		border: 1px solid #cacaca;
 	}
 
-}
-
-#test_feature {
-	height: 800px;
-	background: #777;
-
-	#clownpenis {
-		width: 300px;
-		height: 300px;
+	#current2 {
+		width: 324px;
+		height: 500px;
+		margin-left: 40px;
+		background: url('/assets/Bullwinkles_MLSCup_ticket_small.jpg') no-repeat;
+		float: left;
+		border: 1px solid #cacaca;
 	}
+
 }
