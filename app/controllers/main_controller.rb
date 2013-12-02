@@ -16,4 +16,7 @@ class MainController < ApplicationController
 
   def test
   end
+
+  def disection
+  end
 end

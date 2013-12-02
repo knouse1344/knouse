@@ -13,6 +13,8 @@ KnouSe::Application.routes.draw do
   get 'main/baja'
   get 'main/chameleon'
   get 'main/test'
+  get 'main/disection'
+  get 'main/salsalito'
 
 
   # The priority is based upon order of creation:

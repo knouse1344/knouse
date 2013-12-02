@@ -113,13 +113,30 @@
 	padding-bottom: 4em;
 
 	#Chameleon_info {
-		width: 1400px;
+		width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	#Chameleon_feature {
-		width: 1400px;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+#Disection_page {
+	background: #cbcbcb;
+	padding-bottom: 4em;
+
+	#Disection_info {
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#Disection_feature {
+		width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -236,6 +253,29 @@
 				text-decoration: underline;
 			}
 		}
+	}
+}
+
+#Salsalito_page {
+	background: #F6A8A1;
+	padding-bottom: 4em;
+
+	#Salsalito_info {
+		width: 1000px;
+		height: 700px;
+		padding-top: 200px;
+		text-align: center;
+		font-size: 3em;
+		font-family: 'Source Sans Pro', sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#Salsalito_feature {
+		width: 1000px;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
